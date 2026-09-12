@@ -1,0 +1,16 @@
+{
+  "name": "recovercar-gt06-server",
+  "version": "0.1.0",
+  "description": "Servidor TCP GT06 para RecoverCar — recibe telemetría del módulo del vehículo y ejecuta el corte seguro por velocidad",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
