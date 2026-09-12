@@ -264,6 +264,5 @@ function sendRestoreCommand(socket) {
     Buffer.from([0x0D, 0x0A]),
   ]);
   socket.write(packet);
-}
-  socket.write(packet);
-}
+        }
+
